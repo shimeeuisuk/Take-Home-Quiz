@@ -61,11 +61,11 @@ src
 │       └── toBox.jsx
 └── index.js
 ```
-> 환율계산기의 환율 값이 나오는 screen과 국가를 선택하기 위해 dropbox 컴포넌트를 만들었다.
+> 환율계산기의 환율 값이 나오는 screen과 국가를 선택하기 위해 dropbox 컴포넌트를 만들었습니다.
 
-> 환율을 계산할 때 기준이 되는 국가와 환율을 조회할 국가의 환율값과 국가코드 state를 나누어야 했기 때문에 FromBox 컴포넌트와 ToBox 컴포넌트로 나누었다. 그리고, Dropbox, Screen을 자식 컴포넌트로 두고 state를 내려주었다.
+> 환율을 계산할 때 기준이 되는 국가와 환율을 조회할 국가의 환율값과 국가코드 state를 나누어야 했기 때문에 FromBox 컴포넌트와 ToBox 컴포넌트로 나누었습니다. 그리고, Dropbox, Screen을 자식 컴포넌트로 두고 state를 내려주었습니다.
 
-> 국가를 선택할 때마다 api 요청을 보내 환율 계산을 해주어야 하므로 Calcultaor 컴포넌트를 최상위에 두고 api 요청을 해주었다.
+> 국가를 선택할 때마다 api 요청을 보내 환율 계산을 해주어야 하므로 Calcultaor 컴포넌트를 최상위에 두고 api 요청을 해주었습니다.
 
 ## last message
 
